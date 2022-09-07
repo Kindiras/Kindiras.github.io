@@ -24,6 +24,11 @@ hr {
   color:blue;
   background-color:blue
 }
+
+abbr {
+  font-variant: all-small-caps;
+}
+
 body { 
   font: normal .85em arial, sans-serif;
    /* background: #eeeeee url(../images/pattern.png); */
