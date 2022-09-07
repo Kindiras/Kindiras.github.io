@@ -20,9 +20,9 @@ article, aside, figure, footer, header, hgroup, nav, section {
 
 hr {
   height:2px;
-  border-width:0;
+  border-width:10px;
   color:blue;
-  background-color:white
+  background-color:gray
 }
 body { 
   font: normal .85em arial, sans-serif;
