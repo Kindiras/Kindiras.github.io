@@ -30,6 +30,7 @@ abbr {
   color:red;
   border-bottom: none;
   font-variant: none;
+  cursor:pointer
 }
 
 body { 
