@@ -18,6 +18,12 @@ article, aside, figure, footer, header, hgroup, nav, section {
   display:block;
 }
 
+hr {
+  height:2px;
+  border-width:0;
+  color:blue;
+  background-color:white
+}
 body { 
   font: normal .85em arial, sans-serif;
    /* background: #eeeeee url(../images/pattern.png); */
