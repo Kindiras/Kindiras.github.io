@@ -26,7 +26,8 @@ hr {
 }
 
 abbr {
-  background-color:red;
+  background-color:grey;
+  color:red;
   border-bottom: none;
   font-variant: none;
 }
