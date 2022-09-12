@@ -22,6 +22,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 hr {
   height:1px;
   border-width:1px;
+  width: auto;
   color:blue;
   background-color:blue
 }
@@ -60,6 +61,27 @@ button:hover{
 }
 button:active{
   background-color: red;
+}
+
+.div-pic{
+  vertical-align: top;
+  margin-left: 0px;
+  width: 225px ;
+  display: inline-block;
+  }
+
+  .div-firsttext{
+    vertical-align: top;
+    margin-left: 20px;
+    width: 800px ;
+    display: inline-block;
+    }
+
+.div-para{
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 40px 40px 0px 22px;
 }
 
 .fa {
@@ -105,16 +127,24 @@ button:active{
   margin:0px 30px 0px 40px;
 }
 
+ .p-social {
+  padding: 0px 0px 0px 90px;
+ }
+
 p { 
-  padding: 0 0 10px 0;
+  padding: 0 0 10px 10px;
   line-height: 1.5em;
   
 }
 
-img { 
+.img-prof { 
   float: left;
   margin:0px 0px 0px 60px;  
   border-radius: 50%;
+ /* object-fit: contain;*/
+  object-position: top;
+  border-style: ridge;
+  display: inline-block;
 }
 
 .img-fifa22{
