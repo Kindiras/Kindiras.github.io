@@ -7,116 +7,102 @@
   <meta charset = UTF-8">
   <meta name = "author" content = "Indiras Khatri"/>
   <meta name="description" content="This website contains about me and my projects and research" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="keywords" content="Indiras,Data Science,Machine Learning,Ceramics,DFT,MD" />
-  <link rel = "icon" href = "image/IndiIcon.png",type="image/x-icon">                                                                                     
+                                                                                       
   <!-- <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> -->
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <!-- modernizr enables HTML5 elements and feature detects -->
   <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
 </head>
 
-<body>
-  <div id="main">
+<body>    
     <header>
-      <!-- <div id="logo"><h1><a href="#">Indiras</a>Khatri</h1></div> -->
-      <nav>
-        <ul class="lavaLampWithImage" id="lava_menu">
-          <li class="current"><a href="index.html">home</a></li>
-          <!-- <li><a href="about.html">about me</a></li> -->
-          <li><a href="projects.html"> My Projects </a></li>
-          <li><a href="blog.html">blog</a></li>
-          <li><a href="contact.php">contact</a></li>
-        </ul>
-      </nav>
+       <button><a href="index.html"> HOME </a> </button>
+       <button><a href="projects.html">PROJECTS</a></button>
+       <button><a href="blog.html">BLOGS</a></button>
+       <button><a href="contact.php">CONTACT</a></button>
     </header>
-    <div id="site_content">
-      <div id="sidebar_container">
-        <div class="gallery">
-          <ul class="images">
-            <li class="show"><img width="250" height="250" src="images/SmallerProfile.png" alt="photo of a man" /></li>
-            </ul>
-        </div>
-      </div>
-                                                                                                               
-     <!--Quick links:
-                       <nav>
-                       <ul>
-                       <li> <a href="#research"> My skills and research </a>   </li>    
-                       <li> <a href="#skills"> Technical skills </a> </li>    
-                       <li> <a href="#publications"> Publications </a> </li>
-                       <li> <a href="#presentations"> Presentations </a>  </li>
-                      </ul>
-                      </nav>  --> 
-                                                    
-      <div id="content">
-      <section id="about me"> 
+
+    <img width="150" height="150" src="images/SmallerProfile.png" alt="photo of a man" /></li>
+    
+    <section class="section-aboutme" id="about me"> 
         <h2> About Me </h2>
-                             
-                      
-        <hr> 
-        <h4>(Working on it to make better)</h4>
-                     
-        <p> I am Indiras Khatri, a postdoctoral research fellow at the
+        <hr>        
+          <h4>(Working on it to make better)</h4>
+          <p> I am Indiras Khatri, a postdoctoral research fellow at the
             <a href="https://science.gmu.edu/academics/departments-units/physics-and-astronomy-department" target="_blank">Department of Physics and Astronomy</a>,
         George Mason University, Fairfax. I earned a Ph.D. in computational physics at the <a href="https://www.utoledo.edu/nsm/physast/" target="_blank">Department of 
         Physics and Astronom</a>, University of Toledo, OH. I am working in developing <a href="https://www.nature.com/articles/s41467-019-10343-5" target="_blank">
         PINN potentials</a> of <a href="https://en.wikipedia.org/wiki/Ultra-high-temperature_ceramics" target="_blank">ultra-high temperature ceramics</a> 
          using cutting-edge technology such as machine Learning techniques. In addition, I am interested in designing and developing AI algorithms that can learn and predict using programming languages.</p>
-         </section>
-                                                                                                                      
-         <section id = "research">                                                                                                             
-        <h2 id="my-research-and-skills">My research and skills</h2>
-          <hr>                             
-        <p> My Ph.D. journey helped me to develop the expertise of using well-established physics theories such as
-         <a href="https://en.wikipedia.org/wiki/Density_functional_theory" target="_blank"> density functional theory (DFT)</a>,
-          <a href = "https://en.wikipedia.org/wiki/Molecular_dynamics#:~:text=Molecular%20dynamics%20(MD)%20is%20a,%22evolution%22%20of%20the%20system." target="_blank">
-            molecular dynamics (MD)</a>, and <a href="https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo" target="_blank">  Kinetic Monte Carlo (KMC)</a> 
-          to study the structural and non-equilibrium properties of bulk alloys and thin films. Over eleven articles of mine have been <a href="#publications">
-          published </a> in peer-reviewed journals. I have <a href="#presentations"> presented </a> my works nationally and internationally. To perform scientific calculations, I use software packages such as <abbr title="Vienna Ab initio Simulation Package">
-          <a href="https://www.vasp.at/" target="_blank">VASP</a> </abbr>, <abbr title="Large-scale Atomic/Molecular Massively Parallel Simulator">
-          <a href="https://docs.lammps.org/Manual.html" target="_blank">LAMMPS</a></abbr>, <abbr title="Visual Molecular Dynamics"> VMD </abbr>, <abbr title = "Open Visualization Tool"> OVITTO</abbr>, etc. 
-          I have also developed strong foundations in data science by completing the online courses and solving real-life problems with the use of
-          machine learning. Aside from that, I've been writing code for more than twelve years, which includes OOP using languages like C/C++, 
-          Python, and Java. </p>   
-          </section>
-          
-          <section id ="skills">
-        <h3> Technical Skills: </h3>
-          <hr>                                                                                              
-        <ul>
-          <li> Data Collection: CSV, JSON </li>
-          <li> Excellent in Microsoft Office </li>
-          <li> Database Management: SQL (MySQL, PostgreSQL) </li>
-          <li> Data Visualization: Matplotlib, Seaborn, and plotly  </li>
-          <li> Software: VASP, ATAT, LAMMPS, TAD, OVITO, VMD, Jmol, VESTA, Clsman
-          <li> Programming: Bash shell, C++, Python (Pandas, Numpy, Scikit-Learn, SciPy, Statsmodel) </li>
-          <li> Predictive Modelling: Regression, Classification, Clustering, Time Series Analysis </li>
-          <li> Machine Learning: Supervised & Unsupervised Learning, Deep Learning, NLP,  Computer Vision </li>
-          <li> Statistical Methods: Hypothesis Testing, Principal Component Analysis, Dimensionality Reduction </li>
-          <li> Additional Transferable Skills: Research and Development, Research Reporting, and Design </li>
-          <li> Excellent in HTML, CSS, and Javascript </li>
-        </ul>
-          </section> 
-                               
-         <section id ="publications">                      
-        <h3> Publications: </h3>
-         <hr>                                                                                               
-        <ol>
-        <li> <b> Indiras Khatri</b>, J.G. Amar <a href="https://www.sciencedirect.com/science/article/abs/pii/S0039602822001327" target="_blank"> Mechanism of CdTe (100) sublimation </a>, Surf Sci, 725, 122147 (2022) </li>
-        <li> Indiras Khatri, N.J. Szymanski, B.B. Dumre, J.G. Amar, D. Gall, S.V. Khare, “Correlating structure and orbital occupation with the stability and mechanical properties of 3d transitional metal carbides”, J. Alloys and Compounds 891, 161866 (2022) </li>
-        <li> Sameer Hamadna, Indiras Khatri, Ehsan H. Sabbar, Jacques G. Amar, “Effects of short-range attachment barriers on submonolayer growth”, Surf. Sci.715, 121938 (2021)</li>
-        <li> Indiras Khatri, Ehsan H. Sabbar, Yunsic Shim, Jacques G. Amar, “Kinetically driven island morphology in growth on strained Cu (100)”, J. Chem. Phys. 155, 074703 (2021)</li>
-        <li> Indiras Khatri, Ehsan H. Sabbar, Yunsic Shim, Jacques G. Amar, “Mechanism of stacking fault formation in metal (100) heteroepitaxial growth”, Phys. Rev. Mater., 4, 113403 (2020)</li>
-        <li>	Indiras Khatri, Jacques G. Amar, “Energy temperature, and deposition angle dependence of Cd and Te2 deposited on CdTe”, Thin Solid Films, 697, 137798 (2020)</li>
-        <li>	B. B. Dumre, N.J. Szymanski, V. Adhikari, Indiras Khatri, D. Gall, S.V. Khare, “Improved optoelectronic properties in CdSexTe1-x through controlled composition and short-range order”, J. Sol. Energy, 194, 742-750 (2019)</li>
-        <li>	N.J. Szymanski, Indiras Khatri, J.G. Amar, D. Gall, S.V. Khare, “Unconventional superconductivity in 3d rocksalt transition metal carbides”, J. Mater. Chem. C, 7, 12619 (2019)</li>
-        <li>  V. Adhikari, N.J. Szymanski, Indiras Khatri, D. Gall, S.V. Khare, “First principles investigation into the phase stability and enhanced hardness of TiN-ScN and TiN-YN alloys”, This Solid Films 688, 137284 (2019)</li>
-        <li>  V. Adhikari, Z.T.Y. Liu, N.J. Szymanski, Indiras Khatri, D. Gall, P. Sarin and S.V. Khare, “First-principles study of mechanical and magnetic properties of transition metal (M) nitrides in the cubic M4N structure”, J. Phys. Chem. Solids, 120, 197-206 (2018) </li>
-         <li>	I. Efthimiopoulos, Indiras Khatri, Z.T.Y. Liu, S.V. Khare, P. Sarin, V. Tsurkan, A. Loidl, D. Zhang and Y. Wang, “ Universal link of magnetic exchange and structural behavior under pressure in chromium Spinels”, Phys. Rev. B, 97, 184435 (2018) </li>
-        </ol>
-                                    </section>
-           <section id="presentations">                         
-        <h3> Presentations: </h3>
+    </section>
+    
+    <section class="sectiion-socialmedia">
+      <a href="https://www.linkedin.com/in/indiras-khatri-ph-d-63aa318b/" target="_blank" class="fa fa-linkedin"></a>   
+      <a href="https://github.com/Kindiras" target="_blank" class="fa fa-github"></a>  
+      <a href="https://www.facebook.com/indiras.khatri" target="_blank" class="fa fa-facebook"></a>
+    </section>
+
+
+    <section class="section-researchskills" id = "research">                                                                                                             
+      <h2 id="my-research-and-skills">Research and skills</h2>
+        <hr>            
+        <br>                 
+      <p> My Ph.D. journey helped me to develop the expertise of using well-established physics theories such as
+       <a href="https://en.wikipedia.org/wiki/Density_functional_theory" target="_blank"> density functional theory (DFT)</a>,
+        <a href = "https://en.wikipedia.org/wiki/Molecular_dynamics#:~:text=Molecular%20dynamics%20(MD)%20is%20a,%22evolution%22%20of%20the%20system." target="_blank">
+          molecular dynamics (MD)</a>, and <a href="https://en.wikipedia.org/wiki/Kinetic_Monte_Carlo" target="_blank">  Kinetic Monte Carlo (KMC)</a> 
+        to study the structural and non-equilibrium properties of bulk alloys and thin films. Over eleven articles of mine have been <a href="#publications">
+        published </a> in peer-reviewed journals. I have <a href="#presentations"> presented </a> my works nationally and internationally. To perform scientific calculations, I use software packages such as <abbr title="Vienna Ab initio Simulation Package">
+        <a href="https://www.vasp.at/" target="_blank">VASP</a> </abbr>, <abbr title="Large-scale Atomic/Molecular Massively Parallel Simulator">
+        <a href="https://docs.lammps.org/Manual.html" target="_blank">LAMMPS</a></abbr>, <abbr title="Visual Molecular Dynamics"> VMD </abbr>, <abbr title = "Open Visualization Tool"> OVITTO</abbr>, etc. 
+        I have also developed strong foundations in data science by completing the online courses and solving real-life problems with the use of
+        machine learning. Aside from that, I've been writing code for more than twelve years, which includes OOP using languages like C/C++, 
+        Python, and Java. </p>   
+        </section>
+      
+         
+        <section class="section-researchskills" id ="skills">
+          <h2> Technical Skills: </h2>
+            <hr>              
+            <br>                                                                                
+          <ul>
+            <li> Data Collection: CSV, JSON </li>
+            <li> Excellent in Microsoft Office </li>
+            <li> Database Management: SQL (MySQL, PostgreSQL) </li>
+            <li> Data Visualization: Matplotlib, Seaborn, and plotly  </li>
+            <li> Software: VASP, ATAT, LAMMPS, TAD, OVITO, VMD, Jmol, VESTA, Clsman
+            <li> Programming: Bash shell, C++, Python (Pandas, Numpy, Scikit-Learn, SciPy, Statsmodel) </li>
+            <li> Predictive Modelling: Regression, Classification, Clustering, Time Series Analysis </li>
+            <li> Machine Learning: Supervised & Unsupervised Learning, Deep Learning, NLP,  Computer Vision </li>
+            <li> Statistical Methods: Hypothesis Testing, Principal Component Analysis, Dimensionality Reduction </li>
+            <li> Additional Transferable Skills: Research and Development, Research Reporting, and Design </li>
+            <li> Excellent in HTML, CSS, and Javascript </li>
+          </ul>
+        </section> 
+
+        <section class="section-researchskills" id ="publications">                      
+          <h2> Publications: </h2>
+           <hr>                                                                                               
+          <ol>
+          <li> <b> Indiras Khatri</b>, J.G. Amar <a href="https://www.sciencedirect.com/science/article/abs/pii/S0039602822001327" target="_blank"> Mechanism of CdTe (100) sublimation </a>, Surf Sci, 725, 122147 (2022) </li>
+          <li> Indiras Khatri, N.J. Szymanski, B.B. Dumre, J.G. Amar, D. Gall, S.V. Khare, “Correlating structure and orbital occupation with the stability and mechanical properties of 3d transitional metal carbides”, J. Alloys and Compounds 891, 161866 (2022) </li>
+          <li> Sameer Hamadna, Indiras Khatri, Ehsan H. Sabbar, Jacques G. Amar, “Effects of short-range attachment barriers on submonolayer growth”, Surf. Sci.715, 121938 (2021)</li>
+          <li> Indiras Khatri, Ehsan H. Sabbar, Yunsic Shim, Jacques G. Amar, “Kinetically driven island morphology in growth on strained Cu (100)”, J. Chem. Phys. 155, 074703 (2021)</li>
+          <li> Indiras Khatri, Ehsan H. Sabbar, Yunsic Shim, Jacques G. Amar, “Mechanism of stacking fault formation in metal (100) heteroepitaxial growth”, Phys. Rev. Mater., 4, 113403 (2020)</li>
+          <li>	Indiras Khatri, Jacques G. Amar, “Energy temperature, and deposition angle dependence of Cd and Te2 deposited on CdTe”, Thin Solid Films, 697, 137798 (2020)</li>
+          <li>	B. B. Dumre, N.J. Szymanski, V. Adhikari, Indiras Khatri, D. Gall, S.V. Khare, “Improved optoelectronic properties in CdSexTe1-x through controlled composition and short-range order”, J. Sol. Energy, 194, 742-750 (2019)</li>
+          <li>	N.J. Szymanski, Indiras Khatri, J.G. Amar, D. Gall, S.V. Khare, “Unconventional superconductivity in 3d rocksalt transition metal carbides”, J. Mater. Chem. C, 7, 12619 (2019)</li>
+          <li>  V. Adhikari, N.J. Szymanski, Indiras Khatri, D. Gall, S.V. Khare, “First principles investigation into the phase stability and enhanced hardness of TiN-ScN and TiN-YN alloys”, This Solid Films 688, 137284 (2019)</li>
+          <li>  V. Adhikari, Z.T.Y. Liu, N.J. Szymanski, Indiras Khatri, D. Gall, P. Sarin and S.V. Khare, “First-principles study of mechanical and magnetic properties of transition metal (M) nitrides in the cubic M4N structure”, J. Phys. Chem. Solids, 120, 197-206 (2018) </li>
+           <li>	I. Efthimiopoulos, Indiras Khatri, Z.T.Y. Liu, S.V. Khare, P. Sarin, V. Tsurkan, A. Loidl, D. Zhang and Y. Wang, “ Universal link of magnetic exchange and structural behavior under pressure in chromium Spinels”, Phys. Rev. B, 97, 184435 (2018) </li>
+          </ol>
+       </section>  
+
+       <section class="section-researchskills" id="presentations">                         
+        <h2> Presentations: </h2>
          <hr>                                                                                               
         <ol>
           <li> Indiras Khatri, Density Functional Theory and Accelerated Dynamics Studies of the Structural and Non-equilibrium Properties of Bulk Alloys and Thin-Films, Thesis Presentation for Ph.D., University of Toledo </li>
@@ -131,19 +117,15 @@
           <li>	Indiras Khatri, “Growth of Ni nanoparticles via ion beam implantation using Tandem Van de Graaff Accelerator”, Project presentation for master’s degree, WMU, 2016</li>
           <li>	Indiras Khatri, S.P. Shrestha, “Kinetic Monte Carlo simulation of the island growth on the patterned surface”, Thesis presentation for master’s degree, T.U. Nepal, 2012</li>
        </ol>
-        
-       </section>
-            <a href ="#about me"> go to the top </a>                           
-      </div>
-    </div>
+       <a href ="#about me"> go to the top </a> 
+      </section> 
+
+      <!-- <footer> 
+        <p><a href="index.html">home</a> | <a href="projects.html"> My Projects </a> | <a href="blog.html">blog</a> | <a href="contact.php">contact</a></p>
+        <p>&copy; 2012 my portfolio two. All Rights Reserved. | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+      </footer> -->
       
-                                     
-    <footer> 
-      <p><a href="index.html">home</a> | <a href="projects.html"> My Projects </a> | <a href="blog.html">blog</a> | <a href="contact.php">contact</a></p>
-      <p>&copy; 2012 my portfolio two. All Rights Reserved. | <a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
-    </footer>
-  </div>
-  <!-- javascript at the bottom for fast page loading -->
+      <!-- javascript at the bottom for fast page loading -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>

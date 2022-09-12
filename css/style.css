@@ -35,27 +35,92 @@ abbr {
 
 body { 
   font: normal .85em arial, sans-serif;
-   /* background: #eeeeee url(../images/pattern.png); */
-  background-color: #FFFFFF
-  /*color: #444;*/
+  background-color: white;
+  color: black;
   padding-bottom: 40px;
 }
 
+
+button{
+  background-color:grey;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 30px 0px 0px 10px;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 15px;
+  width: 1px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background:white ;
+  color: #3B5998;
+}
+.fa-linkedin {
+  background: white ;
+  color: #007bb5;
+}
+
+.fa-github{
+  background: white ;
+  color: red;
+}
+
+
+.section-aboutme{
+  margin:0px 30px 0px 250px;
+}
+
+.sectiion-socialmedia{
+  margin:0px 0px 0px 90px;
+  padding: 0 0 20px 0
+}
+
+.sectiion-socialmedia-project{
+  margin:0px 0px 0px 10px;
+  padding: 0 0 20px 0
+}
+
+.section-researchskills{
+  margin:0px 30px 0px 40px;
+}
+
 p { 
-  padding: 0 0 20px 0;
+  padding: 0 0 10px 0;
   line-height: 1.5em;
+  
 }
 
 img { 
-  /*  border: 0; */
+  float: left;
+  margin:0px 0px 0px 60px;  
   border-radius: 50%;
+}
+
+.img-fifa22{
+  margin: 0px 0 0 90px ;
 }
 
 h1, h2, h3, h4, h5, h6 { 
   font: normal 200% 'News Cycle', arial, sans-serif;
   color: #222;
   margin: 0 0 15px 0;
-  padding: 15px 0 5px 0;
+  padding: 10px 0 5px 0;
 }
 
 h1 { 
@@ -64,9 +129,9 @@ h1 {
 
 h2 { 
   font: normal 170% 'News Cycle', arial, sans-serif;
-  color: #666;  
-  margin: 0;
-  padding: 0 0 8px 0;
+  color: black;  
+  margin-left: 0px;
+  padding: 0 0 0 0;
 }
 
 h3 { 
@@ -75,6 +140,7 @@ h3 {
 
 h4, h5, h6 { 
   margin: 0;
+  margin-left: 0px;
   padding: 0 0 5px 0;
   font: normal 110% arial, sans-serif;
   color: #999;
@@ -94,12 +160,12 @@ h6 {
 a, a:hover { 
   outline: none;
   text-decoration: none;
-  color: #00B7EC;
+  color: blue;
 }
 
 a:hover { 
   text-decoration: underline;
-  color: #00B7EC;
+  color:blue;
 }
 
 ul { 
@@ -146,7 +212,7 @@ header {
 #logo h1 { 
   font: normal 330% 'News Cycle', arial, sans-serif;
   padding: 37px 0 0 17px;
-  color: #222;
+  /*color: #222;*/
   letter-spacing: -2px;
 }
 
