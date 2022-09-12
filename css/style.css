@@ -1,8 +1,7 @@
-@font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
-} 
+.my-font { 
+  font-family:Arial, Helvetica, sans-serif; 
+  font-size: 15px;
+}
 
 html { 
   height: 100%;
@@ -50,6 +49,8 @@ button{
   border-radius: 5px;
   cursor: pointer;
   margin: 30px 0px 0px 10px;
+  padding: auto;
+  vertical-align: top;
 }
 
 button:hover{
