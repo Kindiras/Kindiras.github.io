@@ -5,6 +5,10 @@
   line-height: 25px;
 }
 
+.tab-font {
+  color: white;
+}
+
 html { 
   height: 100%;
 }
@@ -42,19 +46,75 @@ body {
   padding-bottom: 40px;
 }
 
+.container {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 
-button{
-  background-color:grey;
+}
+
+.div-tab {
+  background-color: rgb(143, 143, 148);
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 10px 10px 10px;
+  margin: 25px 0px 10px 0px;
+  width: 100%;
+}
+
+.button-home{
+  background-color:rgb(87, 87, 225);
   color: white;
   border: none;
   height: 30px;
   width: 100px;
   border-radius: 5px;
   cursor: pointer;
-  margin: 30px 0px 0px 10px;
-  padding: auto;
+  margin-left: 230px;
+  padding: 0 0 0 0px;
   vertical-align: top;
 }
+
+.button-project{
+  background-color:rgb(87, 87, 225);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0 0 0 0px;
+  vertical-align: top;
+}
+
+.button-blog{
+  background-color:rgb(87, 87, 225);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0 0 0 0px;
+  vertical-align: top;
+}
+
+.button-contact{
+  background-color:rgb(87, 87, 225);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0 0 0 0px;
+  vertical-align: top;
+}
+
 
 button:hover{
   background-color: green;
@@ -64,30 +124,63 @@ button:active{
 }
 
 .div-pic{
+  background-color: blue;
+  border-radius: 50%;
   vertical-align: top;
-  margin-left: 0px;
-  width: 225px ;
+  margin: 0 0 10px 30px;
+  width: 155px ;
+  height: 155px;
+  padding: 0 0 0px 0;
   display: inline-block;
   }
 
+
+  .img-prof { 
+    margin: 3px 0px 0px 3px;  
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    /*float: left;
+    object-fit: contain;
+    object-position: top;
+    border-style: ridge;
+    display: inline-block;*/
+  }
+
+
+  .div-social {
+    margin: 3px 0 0 18px;
+    padding: 5px 0px 0px 0px;
+    width: 100px;
+    height: 30px;
+    background-color:rgb(138, 144, 129);
+   }
+
+
   .div-firsttext{
+    background-color: white;
     vertical-align: top;
-    margin-left: 20px;
-    width: 800px ;
+    margin: 15px 0px 0 25px;
+    width: 85%;
+    height: auto;
     display: inline-block;
+    padding: 0 20px 0 0;
     }
 
 .div-para{
-  margin-left: 10px;
+  background-color: white;
+  margin: 25px 20px 0 10px;
   display: inline-block;
   vertical-align: top;
-  padding: 40px 40px 0px 22px;
+  width: 95%;
+  height: auto;
+  padding: 20px 40px 0px 22px;
 }
 
 .fa {
   padding: 0px;
   font-size: 15px;
-  width: 1px;
+  width: 5px;
   text-align: center;
   text-decoration: none;
   margin: 5px 10px;
@@ -100,36 +193,19 @@ button:active{
 }
 
 .fa-facebook {
-  background:white ;
-  color: #3B5998;
+  background: rgb(138, 144, 129);
+  color: blue;
 }
 .fa-linkedin {
-  background: white ;
-  color: #007bb5;
+  background:  rgb(138, 144, 129);
+  color: blue;
 }
 
 .fa-github{
-  background: white ;
-  color: red;
+  background:  rgb(138, 144, 129);
+  color: black;
 }
 
-
-.section-aboutme{
-  margin:0px 30px 0px 250px;
-}
-
-.sectiion-socialmedia{
-  margin:0px 0px 0px 90px;
-  padding: 0 0 20px 0
-}
-
-.section-researchskills{
-  margin:0px 30px 0px 40px;
-}
-
- .p-social {
-  padding: 0px 0px 0px 90px;
- }
 
 p { 
   padding: 0 0 10px 10px;
@@ -137,15 +213,6 @@ p {
   
 }
 
-.img-prof { 
-  float: left;
-  margin:0px 0px 0px 60px;  
-  border-radius: 50%;
- /* object-fit: contain;*/
-  object-position: top;
-  border-style: ridge;
-  display: inline-block;
-}
 
 .img-fifa22{
   margin: 0px 0 0 90px ;
@@ -195,7 +262,7 @@ h6 {
 a, a:hover { 
   outline: none;
   text-decoration: none;
-  color: blue;
+  color: rgb(15, 115, 231);
 }
 
 a:hover { 
