@@ -158,13 +158,6 @@ button:active{
   padding: 5px 0 5px 0;
 }
 
-.my-font { 
-  font-family:Arial, Helvetica, sans-serif; 
-  font-size: 15px;
-  text-align: justify;
-  line-height: 25px;
-}
-
 html { 
   height: 100%;
 }
@@ -196,14 +189,22 @@ abbr {
 }
 
 body { 
-  font: normal .85em arial, sans-serif;
+  font: normal .85em arial;
   background-color: white;
   color: black;
   padding-bottom: 10px;
 }
 
+.my-font { 
+  font-family:Arial, Helvetica; 
+  font-size: 15px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+
 h1, h2, h3, h4, h5, h6 { 
-  font: normal 200% , arial, sans-serif;
+  font: normal 200% , arial;
   color: #222;
   margin: 0 0 5px 0;
   padding: 10px 0 20px 0;
@@ -220,7 +221,7 @@ p {
 }
 
 h2 { 
-  font: normal 170% 'News Cycle', arial, sans-serif;
+  font: normal 170% 'News Cycle', arial;
   color: black;  
   margin-left: 0px;
   padding: 0 10px 0 10px;
@@ -228,7 +229,7 @@ h2 {
 }
 
 h3 { 
-  font: normal 125%, arial, sans-serif;
+  font: normal 125%, arial;
   padding: 10px 0 0 10px;
 }
 
@@ -236,13 +237,13 @@ h4, h5, h6 {
   margin: 0;
   margin-left: 0px;
   padding: 0 0 5px 0;
-  font: normal 110% arial, sans-serif;
+  font: normal 110% arial;
   color: #999;
   line-height: 1.5em;
 }
 
 h5, h6 { 
-  font: italic 95% arial, sans-serif;
+  font: italic 95% arial;
   color: #888;
   padding-bottom: 15px;
 }
