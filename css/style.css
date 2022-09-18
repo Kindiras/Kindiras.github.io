@@ -281,3 +281,8 @@ ol {
 ol li { 
   margin: 0 0 15px 0;
 }
+
+.marquee-move {
+  direction: right;
+  width: 50%;
+}
